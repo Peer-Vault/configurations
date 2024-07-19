@@ -1,7 +1,5 @@
 server:
   port: 8761
-  servlet:
-    contextPath: "/service-discovery"
 
 eureka:
   instance:
@@ -10,4 +8,4 @@ eureka:
     fetchRegistry: false
     registerWithEureka: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}${server.servlet.contextPath}/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
