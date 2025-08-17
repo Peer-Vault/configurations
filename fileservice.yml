@@ -5,8 +5,8 @@ spring:
       max-request-size: 500MB
   datasource:
     url: jdbc:mysql://localhost:3306/peer_vault_db
-    #username: root
-    #password: root
+    username: "{cipher}46a6058b0cd24ecde0da254104b7b93916876e26b6105ec00624b4b168703095"
+    password: "{cipher}46a6058b0cd24ecde0da254104b7b93916876e26b6105ec00624b4b168703095"
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
